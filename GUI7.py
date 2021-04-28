@@ -100,9 +100,9 @@ class Ui_Dialog(object):
         #self.Chart2D.setFont(font)
         #self.Chart2D.setAutoFillBackground(False)
         #self.Chart2D.setStyleSheet("background-color: rgb(0, 85, 0);\n"
-#"font: 75 12pt \"Roboto\";\n"
-#"border: 1px dashed white;\n"
-#"")
+        #"font: 75 12pt \"Roboto\";\n"
+        #"border: 1px dashed white;\n"
+        #"")
         #self.Chart2D.setObjectName("Chart2D")
         self.radioButton = QtWidgets.QRadioButton(self.dataBar)
         self.radioButton.setGeometry(QtCore.QRect(30, 290, 91, 17))
