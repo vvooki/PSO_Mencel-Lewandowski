@@ -205,7 +205,6 @@ class Ui_Dialog(object):
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
-        #tu pisz nowe rzeczy żeby w razie zmiany designu sie nie pomylić i wiedziec gdzie co wkleić
         self.pushButton.clicked.connect(self.clicked)
         #self.Animation2D.clicked.connect(self.click2dAnimation)
         #self.Chart2D.clicked.connect(self.clickChart)
